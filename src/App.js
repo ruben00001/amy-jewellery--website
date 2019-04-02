@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ImageList } from './data/data';
 
 class App extends Component {
   constructor(props) {
@@ -7,56 +8,59 @@ class App extends Component {
     this.state = {
       container: 0,
       subContainerSize: 1,
-      currentSubContainer: 1
+      currentSubContainer: 1,
     }
 
-    this.numberChildren = this.numberChildren.bind(this);
     this.incrementContainer = this.incrementContainer.bind(this);
   }
 
-  numberChildren() {
-    const container = document.getElementById('img-container');
-    this.setState({
-      subContainerSize: container.childElementCount
-    })
-  }
-
   incrementContainer() {
-    this.numberChildren();
-
-    if(this.state.subContainerSize > 1) {
-      this.setState({
-        currentSubContainer: this.state.currentSubContainer + 1
-      });
+    if(this.state.subContainerSize === 1 || (this.state.currentSubContainer === this.state.subContainerSize)) {
+      if(this.state.container + 1 === ImageList.length) {
+        this.setState({
+          container: 0,
+          subContainerSize: 1,
+          currentSubContainer: 1
+        });
+      } else {
+        this.setState({
+          container: this.state.container + 1,
+          subContainerSize: ImageList[this.state.container + 1].length,
+          currentSubContainer: 1
+        });
+      }
     } else {
-      this.setState({
-        subContainerSize: 1,
-        currentSubContainer: 1,
-        container: this.state.container + 1
+      this.setState({        
+        currentSubContainer: this.state.currentSubContainer + 1
       });
     }
   }
 
-  render() {
+  render() {    
+    let makeVisible = {
+      visibility: 'visible',
+      width: 500,
+      height: 500,
+      overflow: 'hidden'
+    }
+    let makeHidden = {
+      visibility: 'hidden',
+      width: 500,
+      height: 500
+    }
+    let images = ImageList[this.state.container].map((image, i) => { 
+      return (
+        <div style={(i + 1 <= this.state.currentSubContainer) ? makeVisible : makeHidden} key={image.index}>
+          <img src={image.src} alt="jewellery"/>
+        </div>
+      );
+    });
+
     return (
       <div onClick={this.incrementContainer} className="main-container">
-        {(this.state.container === 0 && 
-            <div id="img-container">
-              <div>
-                <img src={require("./img/22118947_10159649787355647_624928218_n (1).jpg")} alt="jewellery" />
-              </div>
-            </div>  
-        )}
-        {(this.state.container === 1 && 
-            <div id="img-container">
-              <div>
-                <img src={require("./img/1/SS18 eye.jpg")} alt="jewellery" />
-              </div>
-              <div>
-                <img src={require("./img/1/SS18 eye.jpg")} alt="jewellery" />
-              </div>
-            </div>
-        )}
+        <div id="img-container">
+          { images }
+        </div>
       </div>
     );
   }
