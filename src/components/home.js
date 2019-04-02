@@ -8,7 +8,7 @@ class Home extends Component {
       this.state = {
         container: 0,
         subContainerSize: 1,
-        currentSubContainer: 1,
+        currentSubContainer: 1
       }
   
       this.incrementContainer = this.incrementContainer.bind(this);
@@ -26,7 +26,7 @@ class Home extends Component {
           this.setState({
             container: this.state.container + 1,
             subContainerSize: ImageList[this.state.container + 1].length,
-            currentSubContainer: 1
+            currentSubContainer: 1,
           });
         }
       } else {
@@ -39,10 +39,11 @@ class Home extends Component {
     render() {    
       let makeVisible = {
         visibility: 'visible',
-      }
+      };
+
       let makeHidden = {
         visibility: 'hidden',
-      }
+      };
   
       let images = ImageList[this.state.container].map((image, i) => { 
         return (
