@@ -89,7 +89,7 @@
 
 .img-4a, .img-4b, .img-4c, .img-4d {
     width: 40%;
-    height: 40vh;
+    height: 38vh;
 }
 
 .img-4a, .img-4c {
@@ -103,6 +103,7 @@
 .img-5a {
     margin-top: 10vh;
     width: 60%;
+    height: 60vh;
     transform: translateX(-20%);
 }
 
@@ -115,6 +116,7 @@
 .img-6a {
     margin-top: 10vh;
     width: 50%;
+    max-height: 60vh;
     float: right;
     margin-right: 20%;
     margin-top: 10%;
@@ -132,13 +134,13 @@
     margin-bottom: 5vh;
     width: 45%;
     min-width: 250px;
-    height: 35%;
+    height: 35vh;
 }
 
 .img-7b {
     width: 45%;
     min-width: 250px;
-    height: 35%;
+    height: 35vh;
 }
 
 @media (max-width: 620px) {
@@ -204,7 +206,7 @@
     width: 40%;
     display: block;
     margin-left: 10%;
-    height: 35%;
+    height: 35vh;
 }
 
 @media (max-width: 620px) {
@@ -216,14 +218,14 @@
 .img-11b {
     width: 50%;
     margin-top: 5vh;
-    height: 35%;
+    height: 35vh;
 }
 
 .img-12a {
     width: 45%;
     margin-right: 5%;
     margin-top: 5%;
-    height: 60%;
+    height: 60vh;
 }
 
 .img-12b {
@@ -237,13 +239,13 @@
     }
 }
 
-.img-13 {
+.img-13a {
     width: 70%;
     margin-top: 20vh;
 }
 
 @media (max-width: 620px) {
-    .img-13 {
+    .img-13a {
         width: 90%;
     }
 }
@@ -258,12 +260,12 @@
     transform: translateY(2%);
 }
 
-.img-15 {
+.img-15a {
     width: 40%;
 }
 
 @media (max-width: 620px) {
-    .img-15 {
+    .img-15a {
         width: 65%;
     }
 }
@@ -283,7 +285,7 @@
     width: 40%;
     margin-top: 3vh;
     margin-left: 5%;
-    height: 30%;
+    height: 30vh;
 }
 
 .img-16d {
@@ -291,10 +293,6 @@
     margin-top: -3vh;
     margin-left: 5%;
     height: 40vh;
-}
-
-.img-17 {
-    margin-top: 10vh;
 }
 
 .img-17a {
@@ -310,7 +308,6 @@
 .img-17b {
     width: 45%;
     transform: translate(4%, 2vh);
-    height: 70vh;
 }
 
 .img-18a {
@@ -336,7 +333,7 @@
     }
 }
 
-.img-19 {
+.img-19a {
     margin-top: 10vh;
     width: 60%;
     height: 70vh;
