@@ -2,13 +2,13 @@ export const ImageList = [
   [
     {
       index: "1a",
-      src: require("../img/8/III_11 (2).jpg"),
+      src: require("../img/8/III_11 (2) - small.jpg"),
     }
   ],
   [
     {
       index: "2a",
-      src: require("../img/1/KEvin el toro .jpg")
+      src: require("../img/1/KEvin el toro - small .jpg")
     }
   ],
   [
@@ -64,19 +64,19 @@ export const ImageList = [
   [
     {
       index: "8a",
-      src: require("../img/3/AV_Robertson_AW18-0012 (2).jpg")
+      src: require("../img/3/AV_Robertson_AW18-0012 (2) - small.jpg")
     },
     {
       index: "8b",
-      src: require("../img/3/AVRobertson-33.jpg")
+      src: require("../img/3/AVRobertson-33 - small.jpg")
     },
     {
       index: "8c",
-      src: require("../img/3/B24I0026 (2).jpg")
+      src: require("../img/3/B24I0026 (2) - small.jpg")
     },
     {
       index: "8d",
-      src: require("../img/3/DSCF1522.jpg")
+      src: require("../img/3/DSCF1522 - small.jpg")
     }
   ],
   [
@@ -92,11 +92,11 @@ export const ImageList = [
   [
     {
       index: "10a",
-      src: require("../img/4/Claw - amy collection.jpg")
+      src: require("../img/4/Claw - amy collection - small.jpg")
     },
     {
       index: "10b",
-      src: require("../img/4/D-lock - amy collection.jpg")
+      src: require("../img/4/D-lock - amy collection - small.jpg")
     },
     {
       index: "10c",
@@ -110,17 +110,17 @@ export const ImageList = [
     },
     {
       index: "11b",
-      src: require("../img/5/close.jpg")
+      src: require("../img/5/close - small.jpg")
     }
   ],
   [
     {
       index: "12a",
-      src: require("../img/5/IMG_20171129_150527036.jpg")
+      src: require("../img/5/IMG_20171129_150527036 - small.jpg")
     },
     {
       index: "12b",
-      src: require("../img/5/IMG_20180126_132002427.jpg")
+      src: require("../img/5/IMG_20180126_132002427 - small.jpg")
     }
   ],
   [
@@ -132,19 +132,19 @@ export const ImageList = [
   [
     {
       index: "14a",
-      src: require("../img/6/IMG_0144.jpg")
+      src: require("../img/6/IMG_0144 - small.jpg")
     },
     {
       index: "14b",
-      src: require("../img/6/IMG_0147.jpg")
+      src: require("../img/6/IMG_0147 - small.jpg")
     },
     {
       index: "14c",
-      src: require("../img/6/IMG_0155.jpg")
+      src: require("../img/6/IMG_0155 - small.jpg")
     },
     {
       index: "14d",
-      src: require("../img/6/IMG_0159.jpg")
+      src: require("../img/6/IMG_0159 - small.jpg")
     }
   ],
   [
@@ -156,15 +156,15 @@ export const ImageList = [
   [
     {
       index: "16a",
-      src: require("../img/7/18452060_10158654215005203_1534462046_o.jpg")
+      src: require("../img/7/18452060_10158654215005203_1534462046_o - small.jpg")
     },
     {
       index: "16b",
-      src: require("../img/7/18452083_10158654215400203_475075484_o.jpg")
+      src: require("../img/7/18452083_10158654215400203_475075484_o - small.jpg")
     },
     {
       index: "16c",
-      src: require("../img/7/18471781_10158654214925203_1131425547_o.jpg")
+      src: require("../img/7/18471781_10158654214925203_1131425547_o - small.jpg")
     },
     {
       index: "16d",
@@ -178,17 +178,17 @@ export const ImageList = [
     },
     {
       index: "17b",
-      src: require("../img/7/18472697_10158654214850203_488265213_o.jpg")
+      src: require("../img/7/18472697_10158654214850203_488265213_o - small.jpg")
     }
   ],
   [
     {
       index: "18a",
-      src: require("../img/8/III_5.jpg")
+      src: require("../img/8/III_5 - small.jpg")
     },
     {
       index: "18b",
-      src: require("../img/8/III_6.jpg")
+      src: require("../img/8/III_6 - small.jpg")
     }
   ],
   [

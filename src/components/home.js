@@ -54,8 +54,8 @@ class Home extends Component {
       });
   
       return (
-        <div onClick={this.incrementContainer} className="home-container">
-          <div className="imgs-container">
+        <div className="home-container">
+          <div onClick={this.incrementContainer}  className="imgs-container">
             { images }
           </div>
         </div>
