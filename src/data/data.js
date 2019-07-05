@@ -2,13 +2,13 @@ export const ImageList = [
   [
     {
       index: "1a",
-      src: require("../img/8/III_11 (2) - small.jpg"),
+      src: require("../img/1/KEvin el toro - small .jpg")
     }
   ],
   [
     {
       index: "2a",
-      src: require("../img/1/KEvin el toro - small .jpg")
+      src: require("../img/8/III_11 (2) - small.jpg")
     }
   ],
   [

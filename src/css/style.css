@@ -76,7 +76,7 @@ a:link, a:visited {
 
 .img-2a {
     width: 80%;
-    height: 70vh;
+    height: 80vh;
 }
 
 .img-3a {
@@ -393,6 +393,7 @@ img {
 @media (max-width: 1370px) {
     .container--contact-details_insta img {
         width: 80px;
+        margin-top: 7px;
     }
 }
 
@@ -424,7 +425,6 @@ img {
     }
     .container--contact-details_insta img {
         width: 40px;
-        margin-top: 7px;
     }
 }
 
