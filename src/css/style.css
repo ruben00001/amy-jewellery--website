@@ -13,6 +13,11 @@
     overflow: hidden;
 } 
 
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
 /* ******* NAVBAR *********************************** */
 
 .header {
@@ -367,17 +372,43 @@ img {
 }
 
 .container--contact-details {
+    /* border: 1px solid black; */
     position: absolute;
     top: 5.5vh;
     left: 48%;
-    font-size: 26px;
+    font-size: 30px;
     letter-spacing: 1.1px;
     font-family: 'Roboto', sans-serif;
 }
 
-a:link, a:visited {
-    color: black;
-    text-decoration: none;
+.container--contact-details_email {
+    margin: 0;
+}
+
+.container--contact-details_insta img {
+    /* border: 1px solid black; */
+    width: 100px;
+}
+
+@media (max-width: 1370px) {
+    .container--contact-details_insta img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container--contact-details {
+        font-size: 26px;
+    }
+    .container--contact-details_insta img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 810px) {
+    .container--contact-details_insta img {
+        width: 50px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -391,6 +422,10 @@ a:link, a:visited {
         font-size: 20px;
         left: 30%;
     }
+    .container--contact-details_insta img {
+        width: 40px;
+        margin-top: 7px;
+    }
 }
 
 @media (max-width: 370px) {
@@ -400,17 +435,14 @@ a:link, a:visited {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 325px) {
     .container--contact-details {
         font-size: 16px;
         left: 27%;
     }
+    .container--contact-details_insta img {
+        width: 30px;
+    }
 }
 
-.container--contact-details > p {
-    margin-bottom: 3vh;
-}
 
-.container--contact-details > a:hover {
-    text-decoration: none;
-}
