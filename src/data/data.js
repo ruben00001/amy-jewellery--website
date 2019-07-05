@@ -197,4 +197,40 @@ export const ImageList = [
       src: require("../img/1/Art_School_SS18-0005 (2).jpg"),
     }
   ],
+  [
+    {
+      index: "20a",
+      src: require("../img/9/1-min.jpg")
+    },
+    {
+      index: "20b",
+      src: require("../img/9/2-min.jpg")
+    },
+    {
+      index: "20c",
+      src: require("../img/9/3-min.jpg")
+    },
+    {
+      index: "20d",
+      src: require("../img/9/4-min.jpg")
+    }
+  ],
+  [
+    {
+      index: "21a",
+      src: require("../img/10/5-min.jpg")
+    },
+    {
+      index: "21b",
+      src: require("../img/10/6-cropped-min.jpg")
+    },
+    {
+      index: "21c",
+      src: require("../img/10/7-cropped-min.jpg")
+    },
+    {
+      index: "21d",
+      src: require("../img/10/8-min.jpg")
+    }
+  ],
 ];

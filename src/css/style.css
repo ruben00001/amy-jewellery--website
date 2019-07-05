@@ -57,6 +57,16 @@ a:link, a:visited {
 
 /* ******* HOME ************************************** */
 
+img {
+    /* object-fit: cover; */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
 .imgs-container {
     text-align: center;
     width: 100%;
@@ -342,14 +352,22 @@ a:link, a:visited {
     height: 70vh;
 }
 
-img {
-    /* object-fit: cover; */
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+.img-20a, .img-20b, .img-20c, .img-20d {
+    width: 40%;
+    height: 38vh;
+}
+
+.img-20a, .img-20c {
+    margin-right: 4%;
+}
+
+.img-20a, .img-20b {
+    margin-bottom: 3%;
+}
+
+.img-21a, .img-21b, .img-21c, .img-21d {
+    width: 49%;
+    height: 40vh;
 }
 
 
